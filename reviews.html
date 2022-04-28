@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="images/logo-fish.png">
+    <!-- -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <!--  -->
+    <title>Відгуки учасників експедиції "Дністер"</title>
+</head>
+
+<body>
+    <div class="header-wrap">
+        <header>
+            <div class="logo">
+                <img id="logo-header" src="images/logo-fish.png" alt="logo">
+            </div>
+            <div class="menu-mobile">
+                <img id="img-menu" src="images/menu.png" alt="menu icon">
+                <div id="menu-content-mobile">
+                    <span id="cl">&#10006;</span>
+                    <div class="menu-mobile-content">
+                        <span id="menu-mobile-span" ><a id="menu-header-desc" href="home.html">Головна</a></span>
+                        <span id="menu-mobile-span" ><a id="menu-header-desc" href="history.html">Історія</a></span>
+                        <span id="menu-mobile-span"><a id="menu-header-desc" href="reviews.html">Відгуки</a></span>
+                        <span id="menu-mobile-span" ><a id="menu-header-desc" href="contact.html">Контакти</a></span>
+                        <span id="menu-mobile-span" ><a id="menu-header-desc" href="galery.html">Галерея</a></span>
+                        <span id="menu-mobile-span" ><a id="menu-header-desc" href="map.html">Карта</a></span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <span class="positin"><a id="menu-header-desc" href="home.html">Головна</a></span>
+                <span class="positin"><a id="menu-header-desc" href="history.html">Історія</a></span>
+                <span class="positin"><a id="menu-header-desc" href="reviews.html">Відгуки</a></span>
+                <span class="positin"><a id="menu-header-desc" href="contact.html">Контакти</a></span>
+                <span class="positin"><a id="menu-header-desc" href="galery.html">Галерея</a></span>
+                <span class="positin"><a id="menu-header-desc" href="map.html">Карта</a></span>
+            </div>
+            <div class="authorization">
+                <img id="authorization" src="images/avtoruzation.png" alt="authorization-people">
+                <div id="modal-user">
+                    <div class="content-form">
+                        <span id="clos">&#10006;</span><br>
+                        <h3 id="text-title-req">Форма для авторизації адміністратора</h3>
+                        <form id="admin" action="">
+                            <p>Логін:</p>
+                            <input id="admin-req" type="text">
+                            <p>Пароль:</p>
+                            <input id="admin-req" type="password">
+                            <p></p>
+                            <button id="open">Увійти</button>
+                            <p></p>
+                            <button id="exit">Вийти</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="wrap">
+        
+        
+        <span id="contents"></span>
+        <a id="map-s" href="map.html"><button id="btn-id-foot">ЗАПИСАТИСЯ НА СПЛАВ</button></a>
+        
+
+        <div class="review">
+            <h2 id="title-review">Щоб залишити заявку - заповніть форму</h2>
+            <form id="form-review" action="">
+                <p>Ваше ім'я</p>
+                <input id="review-input" type="text" placeholder="Наприклад, Іван">
+                <p>Ваш відгук від експедиції</p>
+                <textarea id="review-input" name="" id="" cols="30" rows="10"></textarea>
+                <br>
+                <button id="btn-review">Надіслати</button>
+            </form>
+        </div>
+        <div class="people-rev">
+            <h3 id="name-people">Іван <span id="time">11/05/2020</span> </h3>
+            <p id="rev-people">Дуже сподобалося, клас, рекомегдую!!!</p>
+        </div>
+       
+    </div>
+    <div class="footer-wrap">
+        <footer>
+            <div class="content-footer">
+                <div class="menu-footer">
+                    <span ><a id="menu-header-desc" href="home.html">Головна</a></span>
+                    <span ><a id="menu-header-desc" href="history.html">Історія</a></span>
+                    <span><a id="menu-header-desc" href="reviews.html">Відгуки</a></span>
+                    <span ><a id="menu-header-desc" href="contact.html">Контакти</a></span>
+                    <span ><a id="menu-header-desc" href="galery.html">Галерея</a></span>
+                    <span ><a id="menu-header-desc" href="map.html">Карта</a></span>
+                </div>
+                <div class="contact">
+                    <h2>Контакти:</h2>
+                    <p>Email : splyv@gmail.com</p>
+                    <p>Телефон: +38099999999</p>
+                    <p>м. Львів ,вул. Генерала Чупринки 47/2</p>
+                </div>
+                <div class="logo-footer">
+                    <img src="images/logo-fish.png" alt="logo">
+                </div>
+            </div>
+        </footer>
+        <div class="basement">
+            © 2021 Сплив по річці Дністер
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <script src="script/modal.js"></script>
+</body>
+
+</html>
